@@ -9,9 +9,10 @@ ____________________________________________________________Download ZIP >  >
 Requirements
 1. Native S/L/E/AppleHDA.kext (restore native AppleHDA.kext with Combo Update)
 2. Supported OS X versions:
-2a. alc888-90 - Mountain Lion 10.8.5/AppleHDA.kext_v2.5.2
-2b. alc888-85 - Mountain Lion 10.8.5/AppleHDA.kext_v2.4.7
-2c. alc888-84 - Mountain Lion 10.8 - 10.8.4/AppleHDA.kext_v2.3.7
+2a. alc888-91 - Mavericks 10.9.1/AppleHDA.kext_v2.5.3
+2b. alc888-90 - Mavericks 10.9/AppleHDA.kext_v2.5.2
+2c. alc888-85 - Mountain Lion 10.8.5/AppleHDA.kext_v2.4.7
+2d. alc888-84 - Mountain Lion 10.8 - 10.8.4/AppleHDA.kext_v2.3.7
 
 Realtek ALC AppleHDA Guides https://github.com/toleda/audio_ALCInjection
 1. M-Realtek ALC AppleHDA Capabilities.pdf
@@ -68,9 +69,11 @@ Two ALC888 versions supported
 
 Installation/Shell Script/.command
 1. Downloads/audio_ALC888-master/
-1a. for 10.8.4 and older/audio_alc888-84_patch.command
-1b. for 10.8.5/audio_alc888-85_patch.command
+1c. for 10.9.1/audio_alc888-91_patch.command
 1c. for 10.9/audio_alc888-90_patch.command
+1b. for 10.8.5/audio_alc888-85_patch.command
+1a. for 10.8.4 and older/audio_alc888-84_patch.command
+
 2. Launch (double click: audio_alc888-ver_patch.command)
 3. Enter password at prompt
 4. Save Log: Terminal/Shell/Export Text As../Terminal Saved Output/Desktop/audio_ALC888
@@ -98,9 +101,10 @@ RevoGirl
 
 toleda
 https://github.com/toleda/audio_ALC888
-audio_alc888-84_patch.command
-audio_alc888-85_patch.command
+audio_alc888-91_patch.command
 audio_alc888-90_patch.command
+audio_alc888-85_patch.command
+audio_alc888-84_patch.command
 README.txt
 Files:
 888.zip
