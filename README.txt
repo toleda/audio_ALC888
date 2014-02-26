@@ -9,6 +9,7 @@ ____________________________________________________________Download ZIP >  >
 Requirements
 1. Native S/L/E/AppleHDA.kext (restore native AppleHDA.kext with Combo Update)
 2. Supported OS X versions:
+2a. alc888-92 - Mavericks 10.9.1/AppleHDA.kext_v2.6.0
 2a. alc888-91 - Mavericks 10.9.1/AppleHDA.kext_v2.5.3
 2b. alc888-90 - Mavericks 10.9/AppleHDA.kext_v2.5.2
 2c. alc888-85 - Mountain Lion 10.8.5/AppleHDA.kext_v2.4.7
@@ -69,10 +70,11 @@ Two ALC888 versions supported
 
 Installation/Shell Script/.command
 1. Downloads/audio_ALC888-master/
-1c. for 10.9.1/audio_alc888-91_patch.command
+1a. for 10.9.2/audio_alc888-92_patch.command
+1b. for 10.9.1/audio_alc888-91_patch.command
 1c. for 10.9/audio_alc888-90_patch.command
-1b. for 10.8.5/audio_alc888-85_patch.command
-1a. for 10.8.4 and older/audio_alc888-84_patch.command
+1d. for 10.8.5/audio_alc888-85_patch.command
+1e. for 10.8.4 and older/audio_alc888-84_patch.command
 
 2. Launch (double click: audio_alc888-ver_patch.command)
 3. Enter password at prompt
@@ -97,10 +99,11 @@ THe KiNG
 VHC888
 .:ErmaC:.
 bcc9
-RevoGirl
+RevoGirl rip
 
 toleda
 https://github.com/toleda/audio_ALC888
+audio_alc888-92_patch.command
 audio_alc888-91_patch.command
 audio_alc888-90_patch.command
 audio_alc888-85_patch.command
