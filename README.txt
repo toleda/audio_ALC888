@@ -6,6 +6,8 @@ OS X Realtek ALC888 Onboard Audio
 This guide enables OS X Realtek ALC888 onboard audio on Intel based motherboards with a bootable clean install of OS X. The Realtek AppleHDA.kext only works with the codec the kext was edited for and patches the native AppleHDA.kext.
 ____________________________________________________________Download ZIP >  > 
 
+Note: cloverALC, see https://github.com/toleda/audio_cloverALC
+
 Requirements
 1. Native S/L/E/AppleHDA.kext (restore native AppleHDA.kext with Combo Update)
 2. Supported OS X versions:
@@ -33,7 +35,7 @@ Three Realtek ALC888 AppleHDA.kext Audio_IDs, select one
 4. Audio_IDs: 1 and 2 support analog 5.1 surround sound, 3 does not
 5. Audio_IDs: 1, 2 and 3 require HDMI audio dsdt edits for HDMI audio 
 
-Four techniques enable the Realtek ALC AppleHDA.kext, select one
+Techniques to enable the Realtek ALC AppleHDA.kext, select one
 1. HDEF/kext/No dsdt/audio enabler = Audio_ID, see [Guide] Add HDEF-kext.pdf
 https://github.com/toleda/audio_kext_enabler
 1a. Audio_ID = 1/HDAEnabler1.kext.zip 
@@ -54,6 +56,9 @@ https://github.com/toleda/audio_ALCInjection
 4a. Audio_ID = 1/Audio/Inject=1
 4b. Audio_ID = 2/Audio/Inject=2
 4c. Audio_ID = 3/Audio/Inject=3
+5. Chameleon/Chameleon Installer/Customize/Settings
+5a. Audio_ID = 1/HDEF Layout=1
+5b. Audio_ID = 2/HDEF Layout=2
 
 Download
 1. https://github.com/toleda/audio_ALC888
@@ -68,7 +73,7 @@ Two ALC888 versions supported
 2c. Rename 888_v100202.zip to 888.zip
 3. ALC888_v100102 Not supported, use Interim AppleHDA.kext
 
-Installation/Shell Script/.command
+Installation/Shell Script/.command (Do not move folder or files)
 1. Downloads/audio_ALC888-master/
 1a. for 10.9.2/audio_alc888-92_patch.command
 1b. for 10.9.1/audio_alc888-91_patch.command
@@ -131,16 +136,7 @@ Details - audio_ALC888-ver_patch script  (see Requirements)
 _____________________________
 
 ...$ .../Downloads/audio_ALC888-master/audio_alc888-85_patch.command ; exit;
-Prepare Desktop/audio_ALC888 ...
-Archive:  888.zip
-   creating: 888/
-  inflating: 888/Info-84.plist       
-  inflating: 888/Info-85.plist
-  inflating: 888/Info-90.plist      
- extracting: 888/layout1.xml.zlib    
- extracting: 888/layout2.xml.zlib    
- extracting: 888/layout3.xml.zlib    
-  inflating: 888/Platforms.xml.zlib  
+Prepare Desktop/audio_ALC888 ... 
 Install files ...
 Password:
 Patch binary ...
